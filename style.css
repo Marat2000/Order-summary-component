@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+html
+{
+font-family: 'Red Hat Display', sans-serif;
+font-size:16px;
+font-weight:500;display:flex;
+	justify-content:center;
+	align-items:center;
+	min-height:100vh;
+	
+}
+
+body
+{
+	
+	background-image:url('images/pattern-background-mobile.svg');
+	background-size:cover;
+	background-color:hsl(225, 100%, 94%);
+	
+	
+}
+
+main
+{
+	color:hsl(224, 23%, 55%);
+	text-align:center;
+	font-size:0.95rem;
+	background-color:white;
+	border-radius:2rem;
+	width:16rem;
+	padding:0 2rem 2rem 2rem;
+}
+
+.hero
+{
+	position:relative;
+	right:2rem;
+	border-radius:2rem 2rem 0 0;
+	width:20rem;	
+
+}
+
+h1
+{
+	font-size:1.3rem;
+}
+
+.plan
+{
+	display:flex;
+	padding:.85rem;
+	border-radius:1rem;
+	justify-content:center;
+	align-items:center;
+	font-size:0.85rem;
+	background-color:hsl(225, 100%, 98%);
+}
+
+
+
+
+a
+{
+	
+	font-weight:900;
+	color:hsl(245, 75%, 52%);
+}
+a:clicked
+{
+	color:hsl(245, 75%, 52%);
+}
+a:hover
+{
+	text-decoration:none;
+	opacity:.6;
+	cursor:pointer;
+}
+
+.dark
+{
+	font-weight:900;
+	color:hsl(223, 47%, 23%);
+}
+
+.price
+{
+	text-align:left;
+}
+.plan img
+{
+	margin-right:1rem;
+}
+
+.ok-button
+{
+	font-weight:900;
+	color:white;
+	margin-top:2rem;
+	background-color:hsl(245, 75%, 52%);
+	padding:.8rem 0;
+	box-shadow:hsl(245, 75%, 52%,40%) 0 .6rem 1.2rem;
+	width:100%;
+	border-radius:1rem;
+	margin-bottom:1rem;
+}
+.ok-button:hover
+{
+	opacity:.6;
+	cursor:pointer;
+}
+
+.cancle-button
+{
+	opacity:.6;
+	display:inline;
+	
+	
+}
+
+.cancle-button:hover
+{
+	opacity:1;
+	cursor:pointer;
+}
+
+footer
+{
+	
+	position:block;
+	bottom:0;
+}
+
+.plan img
+{
+	width:4rem;
+}
+
+/********************************************/
+
+@media (min-width:600px)
+{
+
+body
+{
+	background-image:url('images/pattern-background-desktop.svg');
+}
+
+main
+{
+width:20rem;	
+}
+.hero
+{
+	width:24rem;
+	
+}
+
+.price
+{
+	display:grid;
+	padding-right:5rem;
+
+}
+.plan img
+{
+	width:2.5rem;
+}
+
+	
+}
+
+
+
+
+
